@@ -27,8 +27,7 @@ public class Facebook {
         driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("8788783939");
         
         driver.findElement(By.xpath("//div[@class='_1lch']//button[@type='submit']")).click();
-        Thread.sleep(5000);
-       
+        Thread.sleep(5000);       
 	}
 
 }
