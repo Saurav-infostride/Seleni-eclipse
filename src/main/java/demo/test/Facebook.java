@@ -23,24 +23,24 @@ public class Facebook {
         driver.get("https://www.facebook.com/");
         driver.manage().window().maximize();
         driver.findElement(By.linkText("Create New Account")).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         //second question
         driver.findElement(By.xpath("//button[@class='_6j mvm _6wk _6wl _58mi _3ma _6o _6v']/parent::div[@class='_1lch']"
         		+ "/preceding-sibling::div[@id='fullname_field']//child::input[@name='firstname']")).sendKeys(firstName);
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         //fourth question
         driver.findElement(By.xpath("//input[@name='reg_passwd__']//preceding::input[@name='reg_email__']"))
         .sendKeys(mobileNo);
         
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         //third question
         driver.findElement(By.xpath("//input[@name='reg_email__']//following::input[@name='reg_passwd__']"))
         .sendKeys(userPassword);
         //first question
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.findElement(By.xpath("//div[@class='_1lch']//button[@type='submit']")).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.quit();
 	}
 
