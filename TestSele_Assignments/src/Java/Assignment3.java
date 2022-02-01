@@ -24,4 +24,5 @@ public class Assignment3 {
         obj.collectData();
         obj.check();
     }
+    
 }
