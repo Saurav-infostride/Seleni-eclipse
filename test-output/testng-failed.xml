@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/SauravSharma/IdeaProjects/DemoOrange(failed)">
+    <classes>
+      <class name="OrangeHrm.Tests.LoginTest">
+        <methods>
+          <include name="login_details"/>
+          <include name="CheckTitle"/>
+          <include name="ForgetPassword"/>
+          <include name="suiteTearDown"/>
+          <include name="launch"/>
+          <include name="loadBaseUrl"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- OrangeHrm.Tests.LoginTest -->
+    </classes>
+  </test> <!-- C:/Users/SauravSharma/IdeaProjects/DemoOrange(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
