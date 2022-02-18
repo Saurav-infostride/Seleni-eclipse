@@ -1,0 +1,16 @@
+{
+	"email":"jain.sampada@gmail.com",
+	"firstName":"Sampada",
+	"lastName":"Jain",
+	"address":
+	{
+		"state":"Chandigarh",
+		"country":"India",
+		"abc":
+		{
+			"dist":"punjab",
+			"pin":141001
+		}
+	}
+
+}
