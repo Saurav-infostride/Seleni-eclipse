@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2809" started-at="2022-02-16T12:03:12Z" finished-at="2022-02-16T12:03:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2809" started-at="2022-02-16T12:03:12Z" finished-at="2022-02-16T12:03:14Z">
+      <class name="Requestdemo.PostDatareq">
+        <test-method status="PASS" signature="Create()[pri:0, instance:Requestdemo.PostDatareq@448ff1a8]" name="Create" duration-ms="2786" started-at="2022-02-16T12:03:12Z" finished-at="2022-02-16T12:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create -->
+      </class> <!-- Requestdemo.PostDatareq -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
